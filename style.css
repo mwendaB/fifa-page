@@ -39,7 +39,7 @@ body {
 
 .container {
     max-width: var(--container);
-    padding: 0 2rem 0 2rem 0 2rem 0 2rem;
+    padding: 0 2rem ;
     margin: var(--m-auto);
 }
 
