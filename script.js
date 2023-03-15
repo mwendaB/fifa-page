@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         seconds.innerText = `${totalSec < 10 ? '0' + totalSec : totalSec}`;
         if (remaining < 0) {
             document.querySelector('.worldcup-count-down').innerHTML = `
-         <h3 class="running">World Cup Running</h3>   
+         <h3 class="running">Tournament is Running</h3>   
          `;
             cancelAnimationFrame(time);
         }
